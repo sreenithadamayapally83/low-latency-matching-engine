@@ -6,7 +6,7 @@ Designed with **Kernel Bypass principles**, **Zero-Heap Allocation on the hot pa
 
 ---
 
-## ⚡ Performance Metrics
+##  Performance Metrics
 
 Benchmarked on modern x86_64 hardware across **1,000,000 orders**:
 
@@ -36,7 +36,7 @@ Operating system thread schedulers frequently migrate threads across physical CP
 
 ---
 
-## 🔨 Build & Run Instructions
+##  Build & Run Instructions
 
 ### Prerequisites
 - **Compiler:** GCC 13+ or Clang 16+ (C++20 support required)
