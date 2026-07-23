@@ -19,7 +19,7 @@ Benchmarked on modern x86_64 hardware across **1,000,000 orders**:
 
 ---
 
-## 🛠 Architecture & Low-Latency Mechanics
+##  Architecture & Low-Latency Mechanics
 
 ### 1. Zero-Allocation Hot Path (`FixedArena`)
 Standard dynamic memory allocations (`malloc`/`new`) introduce OS kernel overhead and non-deterministic latency spikes. This engine uses a pre-allocated fixed-size arena memory pool (`FixedArena`) to allocate and deallocate `Order` structs in exact $O(1)$ time with zero system calls during runtime execution.
