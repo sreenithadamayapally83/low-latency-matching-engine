@@ -1,0 +1,14 @@
+# Ignore build artifacts and directories
+build/
+bin/
+*.o
+*.a
+*.so
+
+# Ignore editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Ignore executable output
+matching_engine
